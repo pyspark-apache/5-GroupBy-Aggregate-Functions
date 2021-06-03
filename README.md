@@ -1,5 +1,13 @@
 # 5- GroupBy And Aggregate Functions
 
+
+1. [Groupby ](#schema1)
+2. [Agg](#schema2)
+
+<hr>
+
+<a name="schema1"></a>
+
 # 1. Groupby
 ~~~python
 df_pyspark.groupby("Name").sum()
@@ -51,6 +59,10 @@ df_pyspark.groupby("Departments").mean().show()
 +------------+-----------+
 ~~~
 There are more functions, `count(), avg()...`
+
+<hr>
+
+<a name="schema2"></a>
 
 # 2. Agg
 ~~~python
